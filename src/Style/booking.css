@@ -1,0 +1,67 @@
+.booking-container {
+    background-color: #FAEBD7;
+    padding: 60px;
+    max-width: 500px;
+    margin: 0 auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    height: 50vh;
+    margin-top: 80px;
+    opacity: 0;
+    animation: fadeIn .3s ease-in forwards;
+  }
+  
+  h2 {
+    color: #002B75;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 40px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  
+  label {
+    display: flex;
+    flex-direction: column;
+    color: #002B75;
+    font-weight: bold;
+  }
+  
+  input, select {
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 2px solid #FFD44C;
+    border-radius: 4px;
+    margin-top: 15px;
+  }
+  
+  .bokbut {
+    width: 50%;
+    background-color: #FFD44C;
+    color: #002B75;
+    border: none;
+    padding: 0.7rem;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 4px;
+    margin: auto;
+    transition: background-color 0.3s;
+    padding: 20px;
+  }
+  
+  button:hover {
+    background-color: #E9C051;
+  }
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }

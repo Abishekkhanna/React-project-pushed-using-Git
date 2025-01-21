@@ -1,0 +1,44 @@
+.header4{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 40px; */
+    /* background-color: antiquewhite; */
+    color: #002b75;
+    opacity: 0;
+    animation: fadeIn .3s ease-in forwards;
+}
+.header4 h1{
+    font-size: 40px;
+    font-family: "Courgette";
+}
+.chef{
+    margin-top: 50px;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.food1,.food2,.food3{
+    width: 30%;
+    opacity: 0;
+    animation: fadeIn .7s ease-in forwards;
+}
+.food1 img,.food2 img,.food3 img{
+    width: 100%;
+    border-radius: 5px;
+    height: 300px;
+    margin-bottom: 30px;
+}
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }

@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+/* Apply to the main container or body */
+body {
+  overflow: hidden; /* Prevent scrolling during animation */
+}
+
+/* Overlay for the wipe-out effect */
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  z-index: 9999;
+  animation: wipeOut 1.5s ease forwards;
+}
+
+/* Keyframes for the wipe-out effect */
+@keyframes wipeOut {
+  0% {
+    clip-path: inset(0 0 0 0); /* Full black screen */
+  }
+  100% {
+    clip-path: inset(0 50% 0 50%); /* Wipes open from the center */
+  }
+}
