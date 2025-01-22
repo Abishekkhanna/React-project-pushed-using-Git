@@ -7,7 +7,7 @@ export default function Navbar() {
     // <div className='Container'>
         
         <div className='hero'>
-            <h1>Taste Of Shekh</h1>
+            <h1>Taste Of Abishek</h1>
             <h2>Started Since</h2>
             <div className='yr'>---- 2020 ----</div>
         </div>
