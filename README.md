@@ -2,7 +2,7 @@
 
 Welcome to my **Restaurant Website**! 🌟 This project was developed as part of my college placement training with **Ellite Training** 🏫, where I learned the fundamentals of **React** ⚛️. It’s a simple yet elegant restaurant website 🌐 that features table booking functionality, an attractive user interface, and smooth navigation. 
 
-👉 **Check it out here**: [Live Demo](https://abishekkhanna.github.io/React-project-pushed-using-Git/about) 🌟
+👉 **Check it out here**: [Live Demo](https://abishekkhanna.github.io/React-project-pushed-using-Git/) 🌟
 
 ---
 
@@ -26,7 +26,7 @@ Welcome to my **Restaurant Website**! 🌟 This project was developed as part of
 
 ## 🚀 Deployment
 The website is live and hosted on **GitHub Pages**! 🌐 Click the link below to explore:
-👉 **[Live Demo](https://abishekkhanna.github.io/React-project-pushed-using-Git/about)** 🎉
+👉 **[Live Demo](https://abishekkhanna.github.io/React-project-pushed-using-Git/)** 🎉
 
 ---
 
