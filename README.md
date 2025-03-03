@@ -38,7 +38,7 @@ I’m proud of what I’ve achieved 🏆, and this project marks the beginning o
 ---
 
 ## 📸 Preview
-![Website Preview](https://via.placeholder.com/800x400.png?text=Restaurant+Website+Preview)
+![Website Preview](https://github.com/Abishekkhanna/React-project-pushed-using-Git/blob/main/Screenshot.png)
 
 ---
 
